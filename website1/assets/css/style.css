@@ -46,6 +46,10 @@ font-weight: bold;
 color: white
 }
 
+.modal-content {
+    background-color: rgb(0, 0, 0);
+}
+
 .link {
     background-color: rgba(26, 26, 26, 0.336)!important;
     position: absolute;
@@ -107,14 +111,14 @@ color: white
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: rgba(187, 187, 187, 0);
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: grey;
-  color: white;
+  background-color: rgba(128, 128, 128, 0);
+  color: rgba(248, 248, 248, 0.911);
   transform: rotateY(180deg);
 }
 
