@@ -5,15 +5,16 @@
 
 body{
     background-image: url(https://cdn.lowgif.com/full/57d2bd526e9feb2b-defalt-logo-mosaic-animated-010101-by-junguler-d834vms-gif-1000.gif);
+    background-size: 100%;
 }
 
 
  .jumbotron-top{
 /*Jumbotron*/
     background-image: url(https://em.wattpad.com/087be1284f75dd1f5796a3ad02895263b7c16bf4/68747470733a2f2f732d6d656469612d63616368652d616b302e70696e696d672e636f6d2f6f726967696e616c732f65312f65382f63302f65316538633039613634306336363030613931366536353538663566323163632e676966?s=fit&h=360&w=360&q=80);
+    background-size: 100%;
     width: 100%;
     height: 725px;
-    background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0;
@@ -126,8 +127,8 @@ color: white
 
 .carousel {
     height: 600px;
-    width: 1080px;
-    margin-left: 0px; 
+    width: 100%;
+    margin-left: 0px;
 }
 
 .slide {
