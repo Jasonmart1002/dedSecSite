@@ -1,47 +1,55 @@
 * {
-    color: rgba(70, 70, 70, 0.911);
+    color: rgba(248, 248, 248, 0.911);
+    font-family: 'Lacquer', sans-serif;
 }
 
 body{
-    background: white;
+    background-color: rgb(94, 94, 94);
 }
-/*Jumbotron*/
-.card-img{ height: 100px;
-  width: 50%;
-}
-
 
 
  .jumbotron-top{
-/* asdfasdf */
 /*Jumbotron*/
-    background-image: url(https://image.freepik.com/free-photo/panorama-statue-liberty-with-one-world-trade-building-center-hudson-river-new-york-cityscape-background-landmarks-lower-manhattan-new-york-city_1439-233.jpg);
+    background-image: url(https://em.wattpad.com/087be1284f75dd1f5796a3ad02895263b7c16bf4/68747470733a2f2f732d6d656469612d63616368652d616b302e70696e696d672e636f6d2f6f726967696e616c732f65312f65382f63302f65316538633039613634306336363030613931366536353538663566323163632e676966?s=fit&h=360&w=360&q=80);
     width: 100%;
-    height: 500px;
+    height: 725px;
     background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 4%;
+    padding: 0;
     margin-top: 0px!important;   
 }
 
-    .container-fluid {
+.main-jumbo {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
     margin: 0px;
     padding: 0px;
 }
 
-    .display-4{background-color: whitesmoke;
-            font-weight: bold; }
+.display-4{
+    background-color: whitesmoke;
+    font-weight: bold; 
+}
 
 
 
 
-   .lead1{background-color: whitesmoke;
-   font-weight: bold;
-   }   
+.lead1{background-color: whitesmoke;
+font-weight: bold;
+}   
    
 .whiteText {
 color: white
+}
+
+.link {
+    background-color: rgba(26, 26, 26, 0.336)!important;
+    position: absolute;
+    width: 100%;
 }
 
 
@@ -65,13 +73,13 @@ color: white
 
 .portfolio-jumbotron {
     border-top: solid rgba(199, 199, 199, 0.548) 1px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .portfolio-jumbotron-header {
     font-size: 40px;
     font-weight: bold;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .portfolio-icon {
@@ -86,18 +94,22 @@ color: white
 
 .portfolio-jumbotron-text {
     margin-bottom: 8px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .portfolio-deck {
     padding-bottom: 100px;
     margin-bottom: 30px;
     border-bottom: solid rgba(199, 199, 199, 0.548) 1px;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .portfolio-card {
-    border: none;
-
+    background-color: rgba(83, 83, 83, 0.541);
     position: relative;
     top: 0;
     transition: top ease 0.5s;
@@ -125,7 +137,7 @@ color: white
     max-width:750px;
     border-radius: 2px;
     padding: 8px 8px 25px 1px;
-    background-color: rgba(216, 216, 216, 0.541);
+    background-color: rgba(83, 83, 83, 0.541);
     box-shadow: 0 0 2px black;
 }
 /* end of Form */
@@ -146,15 +158,14 @@ color: white
 
 .cardss {
     border: none;
-    border-bottom: solid rgba(199, 199, 199, 0.548) 1px;
     margin-bottom: 20px;
+    background-color: rgba(83, 83, 83, 0.541);
 }
 
 .imgcircle1 {
-  border-radius: 50%;
+    border-radius: 50%;
     width: 200px;
-    height: 300px 
-
+    height: 300px;
 }
 .imgcircle2 {
     border-radius: 50%;
@@ -167,7 +178,7 @@ color: white
   background-color: transparent;
   width: 300px;
   height: 200px;
-  border: 1px solid #f1f1f1;
+  border: none;
   perspective: 1000px;
   /* Remove this if you don't want the 3D effect */
 }
@@ -210,12 +221,3 @@ color: white
   transform: rotateY(180deg);
 }
 
-<<<<<<< HEAD
-.portfolio-links:hover {
-    text-decoration: none;
-    color: black;
-}
-
-.jumbotitle{
-    background: transparent;
-}
